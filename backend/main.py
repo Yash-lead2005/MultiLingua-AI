@@ -7,7 +7,7 @@ import joblib
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
-from database import (
+from .database import (
     initialize_database,
     save_prediction,
     get_predictions,
