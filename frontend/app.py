@@ -16,7 +16,15 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000").rstrip("/")
+API_URL = os.getenv("API_URL", "")
+
+if not API_URL:
+    try:
+        API_URL = st.secrets["API_URL"]
+    except Exception:
+        API_URL = "http://127.0.0.1:8000"
+
+API_URL = API_URL.rstrip("/")
 
 # Palette: Midnight / Porcelain / Teal / Copper
 NAVY = "#17263C"
