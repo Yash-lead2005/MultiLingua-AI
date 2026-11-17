@@ -207,6 +207,31 @@ Interactive API documentation is available at `/docs`.
 - Implement continuous learning from verified human corrections.
 - Deploy the platform for public access.
 
+## 🔗 Project Links
+
+| Resource | Link |
+|---|---|
+| 🌐 **Live Application** | [Launch MultiLingua AI](https://multilingua-ai-og5fzs6oedy6ilexh3xcty.streamlit.app/) |
+| ⚙️ **Backend API** | [Backend Service](https://multilingua-ai-backend.onrender.com/) |
+| 📘 **API Documentation** | [Swagger UI](https://multilingua-ai-backend.onrender.com/docs) |
+| ❤️ **Backend Health Check** | [Check API Status](https://multilingua-ai-backend.onrender.com/health) |
+| 💻 **GitHub Repository** | [Source Code](https://github.com/Yash-lead2005/MultiLingua-AI) |
+
+### 🚀 How to Use
+
+1. Open the Live Application link.
+2. Enter a query in English, Hindi, Hinglish, or Punjabi.
+3. Submit the query to get its predicted department and confidence score.
+4. Explore prediction history and the human review workflow.
+
+### 🛠️ Technology Stack
+
+- **Frontend:** Streamlit
+- **Backend:** FastAPI
+- **Machine Learning:** Scikit-learn, TF-IDF, Linear SVM
+- **Database:** SQLite
+- **Deployment:** Streamlit Community Cloud and Render
+
 ## 👨‍💻 Author
 
 **Yash Kumar**
