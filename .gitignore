@@ -31,3 +31,24 @@ Thumbs.db
 *.log
 
 data/
+
+# Python environments
+venv/
+.venv/
+.venv311/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Streamlit secrets
+.streamlit/secrets.toml
